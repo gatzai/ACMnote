@@ -1,4 +1,4 @@
-·//循环
+# //循环
 int pow2(const int a,const int b){
     int r = 1, base = b;
     while(b!=0){
