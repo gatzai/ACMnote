@@ -1,0 +1,10 @@
+//循环
+int pow2(const int a,const int b){
+    int r = 1, base = b;
+    while(b!=0){
+        if(b%2 == 0)r*=base;
+        base*=base;
+        b/=2;
+    }
+    return r;
+}
